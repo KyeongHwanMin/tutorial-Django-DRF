@@ -1,0 +1,25 @@
+## Django REST Framework
+
+Django 안에서 **Restful API서버**를 쉽게 구축할수 있도록 도와주는 오픈소스 라이브러리
+
+**RESTful (RE**presentational **S**tate **T**ransfer) : HTTP를 통해 이름으로 **구분**된 자원의 **상태**를 **전송**하는 방법
+
+- REST - http의 URL과 http method(GET,POST,PUT,DELET)를 사용해서 API 가독성을 높인 구조화된 시스템 아키텍쳐(framework). 하나의 URL로 최소 4가지 HTTP method 전송
+
+**API (A**pplication **P**rogram **I**nterface) : request와 response로 오가는 구조화된 데이터
+
+### 장점
+
+- API 지원
+- 다양한 authentication 지원
+- Class 기반의 구현방식
+- Serializer 제공 ex) DB data → json, csv
+- Custom을 통해 확장가능
+
+Serializer : 직렬화 하는 클래스, 사용자의 DB안에 사용자 프로필 사진, 이메일, 이름, 성별등의 사용자 모델 인스턴스를 JSON 형태 혹은 Dictionary 형태로 직렬화 할 수 있다.
+
+drf 사용 이유 : 인증, 권한같은 기능을 제공해서 좀더 쉽게 rest api를 구성
+
+ [https://valuefactory.tistory.com/741](https://valuefactory.tistory.com/741)
+
+[https://whatisthenext.tistory.com/126](https://whatisthenext.tistory.com/126)
