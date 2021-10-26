@@ -20,6 +20,8 @@ Serializer : 직렬화 하는 클래스, 사용자의 DB안에 사용자 프로�
 
 drf 사용 이유 : 인증, 권한같은 기능을 제공해서 좀더 쉽게 rest api를 구성
 
+
+
  [https://valuefactory.tistory.com/741](https://valuefactory.tistory.com/741)
 
 [https://whatisthenext.tistory.com/126](https://whatisthenext.tistory.com/126)
